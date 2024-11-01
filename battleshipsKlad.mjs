@@ -1,6 +1,11 @@
 import * as readline from 'node:readline/promises';
 import{stdin as input, stdout as output} from 'node:process';
 const userInput = readline.createInterface({input, output});
+/* 
+Zo ben ik initieel met de opdracht BattleShips begonnen, tot de oefening complexer werd,
+toen was het nodig om over te stappen naar battleshipsPartDeuxnew.mjs
+ */
+
 
 let veld = []
 let speelveld = parseFloat (await userInput.question('voer de grote van je speelveld in: '));
